@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+ARG TARGETARCH
+
 WORKDIR /anheyu
 
 RUN apk update \
